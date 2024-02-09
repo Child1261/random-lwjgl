@@ -48,6 +48,8 @@ public class ShinglineWindow {
         //Enable vSync if user wants vSync enabled.
         if(vSync){
             GLFW.glfwSwapInterval(1);
+        }else{
+            GLFW.glfwSwapInterval(0);
         }
 
         //Show window and create capabilities.
